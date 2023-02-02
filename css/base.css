@@ -24,6 +24,10 @@ body {
   background-repeat: no-repeat;
 }
 
+#index_page h1 {
+  text-align: center;
+}
+
 .btn {
   list-style-type: none;
   display: flex;
@@ -38,6 +42,12 @@ body {
 /* ---------------- */
 
 /* --------- ProductList ---------- */
+
+#p-list {
+  display: block;
+  position: relative;
+}
+
 .productlist main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
