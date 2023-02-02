@@ -1,0 +1,28 @@
+body {
+  color: #7fffd4;
+}
+
+.text p {
+  margin-top: 0;
+  padding: 5%;
+}
+
+.soldout p {
+  color: rgb(173, 24, 181);
+  top: 0;
+  left: 0;
+}
+
+.parent {
+  position: relative;
+}
+
+.product_soldout {
+  display: flex;
+  background-image: url(/img/pack.png);
+  box-shadow: 10px 10px 4px #00000064;
+  /* background-color: blueviolet; */
+  height: 350px;
+  width: 300px;
+  filter: blur(2px);
+}
