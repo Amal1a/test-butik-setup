@@ -1,3 +1,51 @@
 .logo {
+  text-decoration: none;
+  list-style: none;
   font-family: "Hepta Slab", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #81699b;
+  text-shadow: 2px 2px #81699b77;
+  padding-left: 2rem;
 }
+
+/* .logo a {
+  list-style: none;
+} */
+
+footer {
+  margin: 2rem;
+}
+
+a,
+li {
+  list-style: none;
+}
+
+/* -- footer -- */
+.copy-ama {
+  font-family: "Hepta Slab", serif;
+  font-weight: thin;
+  color: #81699b;
+  text-shadow: 2px 2px #81699b77;
+  padding-left: 2rem;
+}
+
+/* -------- Front page ------------ */
+
+.index_logo {
+  font-family: "Hepta Slab", serif;
+  font-size: 200px;
+  color: #81699b;
+  text-shadow: 10px 10px #81699b77;
+}
+
+.copy-ama p {
+  font-family: "Hepta Slab", serif;
+  font-weight: thin;
+  color: #26113d;
+  text-shadow: 2px 2px #81699b77;
+  padding-left: 2rem;
+}
+
+/* ---------------- */

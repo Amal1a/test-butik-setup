@@ -1,3 +1,42 @@
+body {
+  background-image: url(/img/bg-upright.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainNav li {
+  /* margin: 2fr; */
+  list-style: none;
+  padding: 0 2rem;
+}
+
+/* -------- Front page ------------ */
+
+#index_page {
+  background-image: url(/img/bg-stickr-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn li {
+  margin: 0 10px;
+}
+
+/* ---------------- */
+
 /* --------- ProductList ---------- */
 .productlist main {
   display: grid;
