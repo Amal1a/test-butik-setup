@@ -13,6 +13,18 @@ main {
   padding-left: 2rem;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Hepta Slab", serif;
+  color: aliceblue;
+}
+
+p {
+  font-family: "Hepta Slab", serif;
+  color: #81699b;
+}
+
 /* .logo a {
   list-style: none;
 } */
@@ -26,13 +38,71 @@ li {
   list-style: none;
 }
 
+nav a:link,
+a:visited {
+  font-family: "Hepta Slab", serif;
+  background-color: rgba(255, 255, 255, 0);
+  color: #81699b;
+  border: 2px solid #81699b;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+nav a:hover,
+a:active {
+  font-family: "Hepta Slab", serif;
+  background-color: #81699b;
+  color: white;
+}
+
+main a:link,
+a:visited {
+  font-family: "Hepta Slab", serif;
+  background-color: rgba(255, 255, 255, 0);
+  color: #81699b;
+  border: 2px solid #81699b;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+main a:hover,
+a:active {
+  font-family: "Hepta Slab", serif;
+  background-color: #81699b;
+  color: white;
+}
+
 /* -- footer -- */
 .copy-ama {
   font-family: "Hepta Slab", serif;
-  font-weight: thin;
   color: #81699b;
   text-shadow: 2px 2px #81699b77;
   padding-left: 2rem;
+}
+
+footer a:link,
+a:visited {
+  font-family: "Hepta Slab", serif;
+  background-color: rgba(255, 255, 255, 0);
+  color: #81699b;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer a:hover,
+a:active {
+  font-family: "Hepta Slab", serif;
+  background-color: #81699b;
+  color: white;
 }
 
 /* -------- Front page ------------ */
@@ -46,10 +116,31 @@ li {
 
 .copy-ama p {
   font-family: "Hepta Slab", serif;
-  font-weight: thin;
   color: #26113d;
   text-shadow: 2px 2px #81699b77;
   padding-left: 2rem;
+}
+
+/* ---------------- */
+
+/* -------- productList ------------ */
+.now-price {
+  background-color: #81699b;
+  color: white;
+}
+/* ---------------- */
+
+/* -------- product ------------ */
+dl {
+  font-family: "Hepta Slab", serif;
+  color: #81699b;
+  background-color: #382e43;
+}
+
+.stickerli {
+  font-family: "Hepta Slab", serif;
+  font-weight: 300;
+  color: aliceblue;
 }
 
 /* ---------------- */
