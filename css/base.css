@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/bg-upright.png);
+  background-image: url(img/bg-upright.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -19,7 +19,7 @@ body {
 /* -------- Front page ------------ */
 
 #index_page {
-  background-image: url(/img/bg-stickr-1.png);
+  background-image: url(img/bg-stickr-1.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
