@@ -22,21 +22,23 @@
     </header>
     <main>
       <h2>Stickers</h2>
-      <article class="smallProduct">
-        <img
-          src="./img/frog.png"
-          alt="Sahara Team India Fanwear Round Neck Jersey"
-        />
-        <h3>Sticker - Jeff the Frog</h3>
-        <p class="subtle">Sticker | Ami</p>
-        <!-- <p class="price"><span>Prev.</span> DKK 1595,-</p> -->
-        <div class="price">
-          <p>DKK 60,-</p>
-          <!-- <p>-34%</p> -->
-        </div>
-        <a href="produktet.html">Read More</a>
-      </article>
-      <article class="smallProduct onSale">
+      <template id="smallProductTemplate">
+        <article class="smallProduct">
+          <img
+            src="./img/frog.png"
+            alt="Sahara Team India Fanwear Round Neck Jersey"
+          />
+          <h3>Sticker - Jeff the Frog</h3>
+          <p class="subtle">Sticker | Ami</p>
+          <!-- <p class="price"><span>Prev.</span> DKK 1595,-</p> -->
+          <div class="price">
+            <p>DKK 60,-</p>
+            <!-- <p>-34%</p> -->
+          </div>
+          <a href="produktet.html">Read More</a>
+        </article>
+      </template>
+      <!-- <article class="smallProduct onSale">
         <img src="./img/lemon.png" alt="Blue T20" />
         <h3>Sticker - John Lemon</h3>
         <p class="subtle">Sticker | Ami</p>
@@ -57,7 +59,7 @@
           <p>-34%</p>
         </div>
         <a href="produktet3.html">Read More</a>
-      </article>
+      </article> -->
     </main>
     <footer>
       <p class="copy-ama">&copy;Amalia Svejgaard 2023</p>
